@@ -1,0 +1,21 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/oliver-eaton/
+    - icon: github
+      text: Github
+      href: https://github.com/shaggycamel
+---
+
+Hello, I'm Oliver (Fred) 🙂
+
+My keen interest in live music was a catalyst towards starting this blog. For me, it is a means to remember all concerts I attend. 
+
+I try to keep my music taste as broad as possible and aim to find something I admire/enjoy about every music genre. However, in saying that, like all humans I am bias, and, when not paying attention, find myself reverting back to Psychedelic Rock and avoiding Country. 
+
+Enjoy my blog!

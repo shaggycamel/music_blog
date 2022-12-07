@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 43e65be2-b161-4a8f-93a4-1393a834f62e
+      url: 'https://quartopub.com/sites/shaggycamel/freds_music_blog'
