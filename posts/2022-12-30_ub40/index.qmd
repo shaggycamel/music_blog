@@ -1,0 +1,103 @@
+---
+title: "UB40"
+author: "Oliver Fred"
+date: "2022-12-31"
+categories: [Reggae, Bowl of Brooklands]
+link-external-newwindow: true
+link-external-filter: ^(?:http:|https:)\/\/shaggycamel\.quarto\.pub\/freds_music_blog
+---
+
+### Evening
+
+On Friday the 30<sup>th</sup> of December 2022, I saw [UB40](https://open.spotify.com/artist/69MEO1AADKg1IZrq2XLzo5?si=cvhud4KESe25rN7hd7nM_Q) perform at the Bowl of Brooklands located in New Plymouth, NZ.
+
+![](ub40.jpg)
+
+Joining me at the concert was my mum, dad & brother. I was a tad apprehensive going in as I thought UB40 might be past their live performance use-by-date, in addition [*Red Red Wine*](https://open.spotify.com/track/4uOKFydzAejjSFqYbv1XPt?si=dc34e64e48874d56) is really the only UB40 song I know.
+
+My brother and I went halves on a hash biscuit just before entering the venue.
+
+### Band
+
+UB40 are an English reggae band which formed in 1978. For twenty-eight years the line-up of musicians remained stable, but in 2008 frontman Ali Campbell had a dispute with his brother Stephen Campbell (guitar). Ali and a few other members departed, but UB40 remain touring to this day.
+
+The band consists of:
+
+-   Robin Brown - guitar, vocals
+
+-   Jimmy Brown - drums
+
+-   Earl Falconer - bass, vocals
+
+-   Norman Hassan - percussion, trombone, vocals
+
+-   Matt Doyle - lead vocals, guitar
+
+\
+Accompanying touring musicians:
+
+-   Laurence Parry - trumpet, flugelhorn, trombone
+
+-   Martin Meredith - saxophone, keyboard
+
+-   Tony Mullings - keyboard
+
+-   Ian Thompson - saxophone
+
+### Bowl of Brooklands
+
+Bowl of Brooklands is a natural amphitheatre with a lake in front of the stage, it boasts a capacity of around 15,000 people.
+
+The atmosphere at the venue is extremely relaxed! It is a perfect venue for music such as reggae, world and acoustic. The family-friendly vibe means the age range of attendees is large.
+
+```{r echo=FALSE}
+library(leaflet)
+  
+venue <- list(
+  lng = 174.0834082950008
+  , lat = -39.06805436240349
+  , name = "Bowl of Brooklands"
+)
+ 
+leaflet(options = leafletOptions(minZoom = 5, maxZoom = 17)) |>
+  addTiles() |> 
+  setView(lng = venue$lng, lat = venue$lat, zoom = 13) |> 
+  addMarkers(lng = venue$lng, lat = venue$lat, popup = venue$name)
+
+```
+
+<br>
+
+Vocals in the supporting act ([Jefferson Starship](https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF?si=FJYTxdtnQsCEA6TXYox2sQ)) were a bit quiet at times, particularly Jude Gold's vocals, which was a shame because Jude is an incredible vocalist and still kicks arse at a mature age.
+
+However, UB40's sound drifted upwards throughout the amphitheatre entering one's senses like a full-bodied wine. It was a very rich and complete harmony of brass, string and percussion.
+
+Beer was \$10 a can.
+
+### Performance
+
+For the first 30 minutes or so, UB40 just jammed! The brass & bongo section really enhanced the flavour of the music, and they played like seasoned veterans who have outgrown merely playing songs to an audience.
+
+Instead, it *appeared* UB40 were able to walk on stage and play as if they were experimenting with some new tune, but made it sound polished and ready for listening consumption. - Quite incredible really.
+
+The crowd was up and dancing, little children were running around and geriatrics were smoking joints, peace and love could be felt drifting with the music.
+
+### Thoughts
+
+UB40 exceeded my expectations, they have been around since 1978 and still can deliver an awesome and fun live performance.
+
+Bowl of Brooklands is a fantastic venue, in this setting I felt UB40 were able to inspire a feeling of serenity to the audience. One could not have asked for a better combination of `band + venue`.
+
+Admittedly, the hash brownie and copious amount of alcohol consumed assisted with my feelings of inner peace, but the gig also took place between Christmas and New Year so it's a period of time meant for spending with family and loved ones.
+
+### Final Rating
+
+-   Band: 4/5 (really good)
+
+-   Venue: 5/5 (amazing)
+
+-   Evening: 4/5 (really good)
+
+### Rating System
+
+1 (bad); 2 (not bad); 3 (good); 4 (really good); 5 (amazing)
